@@ -1,0 +1,168 @@
+    1  git help config
+    2  git config --global
+    3  git config --global --list
+    4  git config --global user.name "Ohmeko Ocampo"
+    5  git config --global user.email "ohmeko.ocampo@gmail.com"
+    6  git config --global --list
+    7  exit
+    8  notepad++
+    9  notepad++ .bash_profile
+   10  eixt
+   11  exit
+   12  npp
+   13  npp
+   14  ls -a
+   15  cat ~/.gitconfig
+   16  git config --global core.editor "notepad++.exe -multiInst -nosession"
+   17  git config --global --list
+   18  git config -global -e
+   19  git config --global -e
+   20  p4merg
+   21  p4merge
+   22  git config --global -e
+   23  git config --global merge.tool p4merge
+   24  git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   25  git config --global mergetool.prompt false
+   26  git config --global diff.tool p4merge
+   27  git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   28  git config --global difftool.prompt false
+   29  git config --global --list
+   30  exit
+   31  cd git-workspace
+   32  ls
+   33  cd Documents/
+   34  ls
+   35  cd git-workshop
+   36  ls
+   37  cd git-workshop/
+   38  ls
+   39  mkdir projects
+   40  ls
+   41  cd projects
+   42  ls
+   43  git init demo
+   44  ls
+   45  cd demo
+   46  git status
+   47  npp README.ME
+   48  ls
+   49  git status
+   50  git add README.md
+   51  ls
+   52  cp README.ME README.md
+   53  ls
+   54  rm README.ME
+   55  ls
+   56  git status
+   57  git add README.md
+   58  git status
+   59  git commit -m "First file in demo repo"
+   60  git status
+   61  cd .git/
+   62  cd ..
+   63  clear
+   64  ls
+   65  ls -a
+   66  cd .git/
+   67  ls
+   68  cd ..
+   69  ls
+   70  touch LICENSE.md
+   71  ls
+   72  git commit . *
+   73  git add . *
+   74  git commit
+   75  npp README.md 
+   76  git status
+   77  git ls-files
+   78  touch new.file
+   79  git status
+   80  rm new.file
+   81  git commit -am "Updating read me file."
+   82  git status
+   83  git ls-files
+   84  git log
+   85  git status
+   86  npp README.md 
+   87  git status
+   88  git add .
+   89  git status
+   90  git reset HEAD README.md
+   91  git status
+   92  git checkout -- README.md
+   93  git status
+   94  npp README.md 
+   95  pwd
+   96  git status
+   97  git log
+   98  git help log
+   99  git log --oneline --graph --decorate --all
+  100  git config --global alias.hist "log --oneline --graph --decorate --all"
+  101  git config --global --list
+  102  git hist
+  103  npp example.txt
+  104  ls
+  105  git status
+  106  git add example.txt
+  107  git commit -m "adding example file"
+  108  git mv example.txt demo.txt
+  109  git status
+  110  git commit -m "renaming example"
+  111  git rm demo.txt
+  112  ls
+  113  git status
+  114  demo commit -m "deleting demo file"
+  115  ls
+  116  git status
+  117  git commit -m "deleting demo file"
+  118  git status
+  119  ls
+  120  touch myfile.txt
+  121  ls
+  122  git rm myfile.txt
+  123  ls
+  124  ls
+  125  git rm myfile.txt
+  126  rm myfile.txt
+  127  ls
+  128  git status
+  129  git log
+  130  ls
+  131  git status
+  132  touch myfile.txt
+  133  ls
+  134  git status
+  135  mv LICENSE.md LICENSE.txt
+  136  ls 
+  137  git status
+  138  git add -u
+  139  git status
+  140  git add -A
+  141  git status
+  142  git commit -m "rename and add"
+  143  clear
+  144  history
+  145  ls
+  146  rm myfile.txt
+  147  git status
+  148  git add -u
+  149  git commit -m "remove myfile.txt"
+  150  git status
+  151  npp application.log
+  152  ls
+  153  npp .gitignore
+  154  git status
+  155  git add -a
+  156  git add -A
+  157  git status
+  158  git commit -m "Adding ignore file to ignore application logs"
+  159  git status
+  160  ls
+  161  git hist
+  162  git difftool 588f9a0 HEAD
+  163  npp README.md 
+  164  git status
+  165  git diff
+  166  git difftool
+  167  history
+  168  history > section1_4_gittutorial.txt
